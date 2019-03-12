@@ -53,3 +53,5 @@ PS： 亦可适用于单行
 设置父元素为flex定位，justify-content: center; align-items: center;  
 [code](./center/horizontalAndVerticalWithFlex.html)  
 
+## refered  
+[CSS水平居中+垂直居中+水平/垂直居中的方法总结](https://blog.csdn.net/weixin_37580235/article/details/82317240)  
