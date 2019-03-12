@@ -16,7 +16,7 @@
 设置父元素为相对定位，再设置子元素为绝对定位，设置子元素的left:50%，即让子元素的左上角水平居中； 
 * 宽高已知：使用定位属性  
 [code](./center/horizontalWithPositionKnowWidthAndHeight.html)  
-* 宽高未知：利用css3新增属性transform: translateX(-50%)  
+* 宽高未知：利用css3新增属性transform: translateX(-50%)    
 [code](./center/horizontalBlockUnknowWidthAndHeightTest.html)  
 #### 方案三：使用flexbox布局实现（宽度定不定都可以） 
 使用flexbox布局，只需要给待处理的块状元素的父元素添加属性 display: flex; justify-content: center;  
@@ -43,10 +43,12 @@ PS： 亦可适用于单行
 ### 已知高度和宽度的元素  
 #### 方案一：设置父元素为相对定位，给子元素设置绝对定位，top: 0; right: 0; bottom: 0; left: 0; margin: auto;  
 [code](./center/horizontalAndVerticalWithPostionAndMargin.html)  
-#### 方案二：设置父元素为相对定位，给子元素设置绝对定位，left: 50%; top: 50%; margin-left: --元素宽度的一半px; margin-top: --元素高度的一半px; [code](./center/horizontalAndVerticalWithPostionAndMargin2.html)    
+#### 方案二：设置父元素为相对定位，给子元素设置绝对定位，left: 50%; top: 50%; margin-left: --元素宽度的一半px; margin-top: --元素高度的一半px;   
+[code](./center/horizontalAndVerticalWithPostionAndMargin2.html)    
 ### 未知高度和宽度的元素  
 #### 方案一：使用定位属性
-设置父元素为相对定位，给子元素设置绝对定位，left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);  [code](./center/horizontalAndVerticalWithPostionAndMarginUnknowWidthAndHeight.html)    
+设置父元素为相对定位，给子元素设置绝对定位，left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);  
+[code](./center/horizontalAndVerticalWithPostionAndMarginUnknowWidthAndHeight.html)    
 ### 使用flex布局实现  
 设置父元素为flex定位，justify-content: center; align-items: center;  
 [code](./center/horizontalAndVerticalWithFlex.html)  
