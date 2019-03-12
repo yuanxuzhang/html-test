@@ -17,5 +17,10 @@
 [code](./center/horizontalWithPositionKnowWidthAndHeight.html)  
 * 宽度未知：利用css3新增属性transform: translateX(-50%)  
 [code](./center/horizontalBlockUnknowWidthAndHeightTest.html)  
-
-
+#### 方案三：使用flexbox布局实现（宽度定不定都可以） 
+使用flexbox布局，只需要给待处理的块状元素的父元素添加属性 display: flex; justify-content: center;  
+[code](./center/horizontalBlockWithFlex.html)  
+## 垂直居中  
+### 单行的行内元素  
+需要设置单行行内元素的"行高等于盒子的高"即可*line-height*  
+[code](./center/verticalLineWithLineHeight.html)  
