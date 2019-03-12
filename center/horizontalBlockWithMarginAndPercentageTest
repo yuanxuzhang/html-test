@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+<style>
+    #father {
+        width: 50%;
+        height: 50%;
+        background-color: skyblue;
+    }
+ 
+    #son {
+        width: 25%;
+        height: 25%;
+        background-color: green;
+        margin: 0 auto;
+    }
+</style>
+<div id="father">
+    <div id="son">我是块级元素</div>
+</div>
+</body>
+</html>
