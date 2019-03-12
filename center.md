@@ -22,5 +22,9 @@
 [code](./center/horizontalBlockWithFlex.html)  
 ## 垂直居中  
 ### 单行的行内元素  
-需要设置单行行内元素的"行高等于盒子的高"即可*line-height*  
+需要设置单行行内元素的"行高等于盒子的高"即可*line-height可设置数字和百分比（相对于字体）*  
 [code](./center/verticalLineWithLineHeight.html)  
+### 多行的行内元素  
+使用给父元素设置**display:table-cell**;和vertical-align: middle;属性即可； 
+PS： 亦可适用于单行  
+[code](./center/verticalMultiLineWithLineHeight.html)  
