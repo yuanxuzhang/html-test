@@ -46,5 +46,7 @@ PS： 亦可适用于单行
 ### 未知高度和宽度的元素  
 #### 方案一：使用定位属性
 设置父元素为相对定位，给子元素设置绝对定位，left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);  [code](./center/horizontalAndVerticalWithPostionAndMarginUnknowWidthAndHeight.html)    
-
+### 使用flex布局实现  
+设置父元素为flex定位，justify-content: center; align-items: center;  
+(./center/horizontalAndVerticalWithFlex.html)  
 
